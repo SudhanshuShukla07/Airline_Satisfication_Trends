@@ -75,7 +75,7 @@ plt.title("Check-in Experience vs Satisfaction")
 plt.show()
 
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(10, 8))
 sns.boxplot(data=d1, x='Satisfaction', y='Online Boarding',hue='Satisfaction', palette='Set3',legend=False)
 plt.title("Online Boarding Experience vs Satisfaction")
 plt.show()
