@@ -22,7 +22,6 @@ print("Columns of DataSet:  \n",d1.columns)
 print("Datatype of DataSet: \n ",d1.dtypes)
 print("veryfing Having any null value or not?? \n")
 print(d1.isnull().sum())
-print()
 d1.to_csv("cleaned_airline.csv", index=False)
 print("Saved succesfully")
 
