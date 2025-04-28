@@ -119,7 +119,7 @@ plt.show()
 # Heatmap of correlation matrix
 plt.figure(figsize=(12, 8))
 corr = d1.corr(numeric_only=True)
-sns.heatmap(corr, annot=True, cmap='coolwarm', fmt=".2f", linewidths=0.5)
+sns.heatmap(corr, annot=True, cmap='coolwarm', fmt=".2f", linewidths=0.8)
 plt.title("Correlation Heatmap of Numerical Features")
 plt.tight_layout()
 plt.show()
