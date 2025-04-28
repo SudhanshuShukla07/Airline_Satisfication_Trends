@@ -28,7 +28,7 @@ print("Saved succesfully")
 
 
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(12, 6))
 sns.countplot(data=d1, x='Satisfaction', hue='Satisfaction', palette='coolwarm',legend=False)
 plt.title("Overall Satisfaction Levels")
 plt.xlabel("Satisfaction")
